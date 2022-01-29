@@ -6,6 +6,9 @@
   "author": "Antonio Márquez Pérez <amarquez1980@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "up": "docker-compose up -d --build",
+    "down": "docker-compose down",
+    "wp": "docker exec wordpress wp --allow-root",
     "commit": "./node_modules/cz-customizable/standalone.js",
     "prepare": "husky install",
     "lint": "eslint --ext .ts,.tsx",
