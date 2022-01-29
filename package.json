@@ -1,6 +1,6 @@
 {
-  "name": "basic-repo-template",
-  "version": "0.1.1",
+  "name": "wordpress-docker-aws-template",
+  "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:antoniomperez/basic-repo-template.git",
   "author": "Antonio Márquez Pérez <amarquez1980@gmail.com>",
