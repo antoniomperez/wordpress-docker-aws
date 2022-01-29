@@ -2,7 +2,9 @@ version: '3.1'
 
 services:
   wordpress:
-    image: wordpress
+    # image: wordpress
+    build:
+      context: .
     container_name: ${CONTAINER_NAME}
     restart: always
     ports:
