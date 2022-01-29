@@ -1,0 +1,6 @@
+node_module
+.vscode
+/.husky
+
+# Version Control
+CHANGELOG.md
