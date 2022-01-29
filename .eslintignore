@@ -4,3 +4,6 @@ node_modules
 
 # Version Control
 CHANGELOG.md
+
+# Wordpress files
+/html
